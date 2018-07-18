@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+	background-color: #607D8B;
+	font-family: Merriweather, serif;
+	
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	visibility: hidden;
+}
+
+.loc-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+  min-height: 100%;  
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+	visibility: hidden;
+}
+
+.navbar .container-fluid > .navbar-header {
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: left;
+  margin: 5px;
+}
+.nav > li {
+  float: left;
+  margin-right: 5px;
+}
+
+a.fa {
+  float: right;
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+ul.social {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li .fa {
+  text-decoration: none;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2px;
+  width: 15px;
+}
+
+.fa:hover {
+  color: white;
+}
+
+#copyright {
+  bottom: 5px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnr
+
+Nx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet">
+
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+	
+	<!--NAVBAR HEADER-->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Weather</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav d-inline-block">
+          <li class="nav-item"><a class="nav-link" href="https://robfairclough.github.io"  id = "portfolio-button">Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--END HEADER-->
+	<div class = "wrapper">
+						<p><button class="btn btn-primary loc-button" id="giveLocationButton">Give Location (required)
+							</button></p>
+		<p class = "loading">Loading...</p>
+	</div>
+	<div class="vertical-center main-content">
+		<div class="container bg-light">
+			<div class="row bg-dark">
+				<!---header-->
+				<div class="col-12 mx-auto">
+					<h2 class="text-primary text-center">
+						Your Local Weather
+					</h2>
+				</div>
+			</div>
+			<!--end header-->
+			<div class="row">
+				<div class="col-12">
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 location">
+					<p id="location" class = "text-center">User location here</p>
+				</div>
+				<!--<div class="col-4 weather">
+					<p id="weather"> Weather</p>
+				</div> -->
+			</div>
+			<div class="row">
+				<div class = "col-5">
+				</div>
+				<div class="col-1">
+					<p id="temperature" class = "text-center">temp</p>
+				</div>
+				<div class = "col-1">
+				</div>
+				<div class="col-1">
+					<button class="btn btn-primary" id="changeUnitsButton">°C/°F</button>
+				</div>
+				<div class = "col-1">
+				</div>
+				<div class="col-1 image">
+					<p id="weather-icon" class="fa"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container">
+      <ul class="social">
+        <li><a href="#" class="fa fa-facebook" target="_blank"></a></li>
+        <li><a href="https://www.twitter.com/robfairclough" class="fa fa-twitter" target="_blank"></a></li>
+        <li><a href="https://codepen.io/robfairclough" class="fa fa-codepen" target="_blank"></a></li>
+        <li><a href="https://github.com/robfairclough" class="fa fa-github" target="_blank"></a></li>
+        <li><a href="https://instagram.com/robfairclough" class="fa fa-instagram" target="_blank"></a></li>
+				<li><i>© Rob Fairclough 2018</i></li>
+
+      </ul>
+        </div>
+  </footer>
+
+  <!--END FOOTER-->
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
